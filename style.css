@@ -1,0 +1,230 @@
+/*---------------------
+Body Sectionc
+---------------------*/
+
+:root{
+    --c-dark: #030f0f;
+    --c-primary: #00df82;
+    --c-secondry: #03624c;
+    --c-white: #ffffff;
+}
+
+body {
+    background: var(--c-dark);
+    color: var(--c-white) !important;
+}
+
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    color: var(--c-primary);
+}
+
+
+/*---------------------
+navbar Sectionc
+---------------------*/
+.navbar {
+    background: var(--c-primary) !important;
+    padding: 3px 12px 3px 12px;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--c-dark) !important;
+}
+
+a:hover{
+    color: var(--c-white) !important;
+}
+
+
+/*---------------------
+Hero Sectionc
+---------------------*/
+.pic {
+    width: 500px;
+    height: auto;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    height: 100vh;
+}
+
+.hero-left{
+    text-align: left;
+    max-width: 50%;
+    color: var(--c-white);
+}
+
+.profile-photo:hover{
+    transform: scale(1.05);
+}
+
+.icon{
+    width: 20px;
+    height: auto;
+}
+
+.icon{
+    margin-right: 30px;
+}
+
+
+
+/*------------------
+About Me
+------------------*/
+
+.aboutme-text{
+    color: var(--c-dark);
+    background-color: var(--c-primary);
+    width: 150px;
+    height: auto;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.table-div{
+    display: flex;
+    justify-content: space-around;
+    align-items:  flex-start;
+    justify-content: center;
+    padding: 100px;
+}
+
+.table1{
+    color: #ffffff;
+    border: 2px solid var(--c-primary);
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+
+
+/*------------------
+Skile Section End
+------------------*/
+
+.u-img{
+    width: 200px;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+.u-div-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*------------------
+Contect Section End
+------------------*/
+
+.contact-box{
+    margin: auto;
+    padding: 50px 20px;
+    width: 50%;
+    border: 2px solid #ffffff ;
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+.card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+input , textarea {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: var(--c-white);
+    margin: 10px 0px;
+    padding: 10px 2px;
+    
+}
+#submit {
+    background-color: var(--c-primary);
+    color: var(--c-white);
+    width: 100px;
+    height: auto;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--c-primary);
+    text-align: center;
+}
+
+.submit-r{
+    text-align: end;
+}
+
+#r-message{
+    width: 500px;
+    height: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#r-name{
+    font-weight: 500;
+    color: var(--c-primary);
+    margin-top: 5px;
+    font-size: 1.25rem;
+}
+#r-email , #r-number {
+    color: var(--c-secondry);
+    font-size: 0.75rem;
+    margin-right: 10px;
+}
+
+#r-text{
+    color: var(--c-white);
+    margin-left: 5px;
+}
+
+.message-here-text{
+    color: var(--c-primary);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/*---------------------
+footer Sectionc
+---------------------*/
+
+footer{
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--c-secondry);
+    padding-bottom: 20pxss;
+}
